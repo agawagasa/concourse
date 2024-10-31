@@ -1,0 +1,7 @@
+---
+applications:
+  - name: concourse-test-app
+    memory: 128M
+    buildpacks:
+      - nodejs_buildpack
+    path: .
